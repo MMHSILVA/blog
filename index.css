@@ -1,0 +1,162 @@
+body {
+    color: white;
+    background-color: black;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgba(4, 18, 204, 0.911);
+    
+}
+
+.center {
+
+}
+h1{
+    color: blue;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer img {
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+
+}
+
+footer {
+    display: flex;
+    justify-content:center;
+
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+.contain {
+    padding: 0px 50px;
+}
+
+nav a:hover{
+    color: blue;
+}
+
+p{
+    font-family:arial ;
+}
+/*estilo de formulario de contato*/
+
+section.contatos {
+    padding: 80px 4%;
+    color: aqua;
+
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 40px;
+
+}
+.titulo {
+    text-align: center;
+    color: blue;
+
+}
+
+form input {
+    width: 100%;
+    background-color: rgba(39, 35, 35, 0.123);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+}
+
+form input, form textarea {
+    width: 100%;
+    background-color: rgba(39, 35, 35, 0.123);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+
+}
+
+form textarea{
+    max-height: 200px;
+    resize: none;
+    max-width: 200px;
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input{
+    width: 120px;
+    background-color: blue;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+
+}
+
+button:hover, form .btn-enviar input:hover{
+    box-shadow: opx 0px 8 px;
+    transform: scale(1.05);
+}
+
+h2.titulo{
+    color: white;
+    font-size: 38px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2.titulo span{
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+form .number input{
+    background-color: blue;
+}
+
+/*estilo do portifolio*/
+
